@@ -7,7 +7,7 @@ names_data=['a','b','c','d','e','f','g','h','i','j','k','l','m','n',
 
 def siporato(text):
 	return (int(x) if x.isdigit() else x for x in text.split(','))
-
+#	return (x if x.isdigit() else x for x in text.split(','))
 def create_a_list(text):
 	return list(siporato(text))
 
@@ -60,7 +60,8 @@ while True:
 			print_args(args)
 	break		
 
-my_zip=(extraction(i,args) for i in shortest_sequence_range(args))
+my_zip=dict(extraction(i,args) for i in shortest_sequence_range(args))
+
 
 for el in my_zip:
 	print(el)
