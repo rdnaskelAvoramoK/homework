@@ -135,6 +135,12 @@ COPY public.words (id, word, vocabulary_id) FROM stdin;
 10	victiry is mine	1
 11	Speaker	2
 12	Python	3
+13	have	1
+14	IP	2
+15	Kanban	3
+16	have	7
+17	TCP/IP	2
+18	Function	3
 \.
 
 
@@ -149,7 +155,7 @@ SELECT pg_catalog.setval('public.vocabulary_id_seq', 6, true);
 -- Name: word_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.word_id_seq', 12, true);
+SELECT pg_catalog.setval('public.word_id_seq', 18, true);
 
 
 --
