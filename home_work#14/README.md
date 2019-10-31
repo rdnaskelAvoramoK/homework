@@ -197,3 +197,23 @@ select
  65 | 2019 | Kia Soul EV         | Compact   | Wagon or Hatchback | electro | Kia              | South Korea | www.kia.com
 (3 rows)
 ```
+выборка седанов из Японии
+```select 
+  models.id, models.year, models.model, s1.size as size_body, b1."body type",
+  e1.engine, m1.manufacturersize, m1.country, m1.email
+  from models inner join size as s1 on (models.model_size = s1.id )
+  inner join body_type as b1 on (models.body_type = b1.id and b1."body type"= 'Sedan')
+  inner join engine as e1 on (models.engenie = e1.id )
+  inner join manufacturersize as m1 on (m1.id = models.idm and m1.country = 'Japan') order by 1;
+```
+результат
+``` id | year |            model             | size_body | body type |  engine  | manufacturersize | country |           email           
+----+------+------------------------------+-----------+-----------+----------+------------------+---------+---------------------------
+  1 | 2019 | Acura ILX                    | Compact   | Sedan     | gasoline | Acura            | Japan   | www.acura.me
+ 49 | 2019 | Honda Clarity Plug-In Hybrid | Midsize   | Sedan     | hybrid   | Honda            | Japan   | global.honda
+ 55 | 2018 | INFINITI Q70h                | Midsize   | Sedan     | hybrid   | INFINITI         | Japan   | www.infiniti.com
+ 72 | 2018 | Lexus LS 500h                | Full-Size | Sedan     | hybrid   | Lexus            | Japan   | discoverlexus.com
+ 85 | 2018 | Mazda 6                      | Midsize   | Sedan     | gasoline | Mazda            | Japan   | www.mazda.com
+ 98 | 2015 | Mitsubishi Lancer Evolution  | Midsize   | Sedan     | gasoline | Mitsubishi       | Japan   | www.mitsubishi-motors.com
+(6 rows)
+```
