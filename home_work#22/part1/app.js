@@ -1,11 +1,17 @@
-
-
 function ssilkaNaImgIzPrompt(){
     var img = document.getElementById('myimg');
-    img.src = prompt("Enter a link to the picture");
+    
+    var link = prompt("Enter a link to the picture");
+    img.src = link
     var angle = prompt("Enter image rotation angle")
     img.style.transform = `rotate(${angle}deg)`;
-    var newImg = document.body.appendChild(img)
-    return [img,angle]
+    
+    for (i=2; i<=5;i++){
+    var nameImg = `$(newImg)i`
+    var nameImg = document.createElement("img");
+    nameImg.src = link
+    var newImg1 = document.body.appendChild(nameImg);
+    var newAngle = String(Number(angle)*i);
+    nameImg.style.transform = `rotate(${newAngle}deg)` }
 }
 var mydata = ssilkaNaImgIzPrompt()
