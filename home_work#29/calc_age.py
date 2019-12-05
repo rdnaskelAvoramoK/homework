@@ -1,22 +1,22 @@
 import datetime
 
+import sys
+
 
 class MyClass:
 
     def __init__(self, user_date):
-        self.data = self.date_converter(user_date)
+        self.data = MyClass.date_converter(user_date)
 
-    def date_converter(self, data):
-        return self.validate(data)
-
-    def validate(self, data):
+    @staticmethod
+    def date_converter(user_date):
         try:
-            date = datetime.datetime.strptime(data, "%d-%m-%Y")
-        except ValueError:
-            print("Could not convert data to date.")
-        else:
+            date = datetime.datetime.strptime(user_date, "%d-%m-%Y")
             return date
+        except ValueError:
+            sys.exit("ValueError")
 
+    @property
     def age(self):
         now_date = datetime.date.today().timetuple()
         birthday = self.data.timetuple()
@@ -31,9 +31,9 @@ class MyClass:
                     return (now_date[0] - birthday[0] -1)
                 else:
                     return (now_date[0] - birthday[0])
-        else:
-            return "date of birth is not correct"
+        return "Указанна будущая дата"
 
-cool = MyClass("11-10-1980")
 
-print(cool.age())
+cool = MyClass("8-8-1888")
+
+print(cool.age)
