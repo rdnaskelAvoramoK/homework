@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+        {% include 'add1.html'  %}
+
+            {% for item in months %}
+                {% if forloop.counter|divisibleby:2 %} {% else %}  {% include 'add2.html' with name=item %}  <br>{% endif %}
+            {% endfor %}
+
+
+
+    {% include 'add1.html'  %}
+
+{% endblock %}
