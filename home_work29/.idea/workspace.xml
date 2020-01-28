@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e3ccdd4c-8286-48a2-8eed-1f8af7a36496" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/calc_age.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic/5464.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic/lesson_26.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic/pppp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../home_work#22/part1/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../home_work#22/part1/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../home_work#22/part1/app_part_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/../home_work#22/part1/app_part_1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../home_work#22/part2/app_part_2.js" beforeDir="false" afterPath="$PROJECT_DIR$/../home_work#22/part2/app_part_2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../home_work#22/part2/index_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homework#26/homwork#26_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../homework#26/homwork#26_2.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1UUb5HyVSJMss8cs1yfz20tTv3S" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="calc_age" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="home_work29" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/calc_age.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.calc_age" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e3ccdd4c-8286-48a2-8eed-1f8af7a36496" name="Default Changelist" comment="" />
+      <created>1575413935377</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575413935377</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1377" height="250" key="GridCell.Tab.0.bottom" timestamp="1575414327061">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1377" height="250" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1575414327061" />
+    <state width="1377" height="250" key="GridCell.Tab.0.center" timestamp="1575414327058">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1377" height="250" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1575414327058" />
+    <state width="1377" height="250" key="GridCell.Tab.0.left" timestamp="1575414327057">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1377" height="250" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1575414327057" />
+    <state width="1377" height="250" key="GridCell.Tab.0.right" timestamp="1575414327059">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1377" height="250" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1575414327059" />
+  </component>
+</project>

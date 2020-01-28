@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+        {% for goods in object_list %}
+
+            <p><a href="{{ instance.get_absolute_url }}">{{ goods.title }}</a>  : {{ goods.price }}
+                <form style="display: flex;
+                    justify-content: center;" action="{% url 'purchase_create' %}" method="post">
+                        {% csrf_token %}
+                        {{ quantity }}
+                    <input type="submit" value="Bay">
+               </form>
+            </p>
+        {% endfor %}
+
+
+        {% if object_list %}
+            <div class="pagination" style="display: flex;
+    justify-content: center;">
+            <span class="step-links">
+                {% if page_obj.has_previous %}
+                    <a href="?page=1">&laquo; first</a>
+                    <a href="?page={{ page_obj.previous_page_number }}">previous</a>
+                {% endif %}
+
+                <span class="current">
+                    Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}.
+                </span>
+
+                {% if page_obj.has_next %}
+                    <a href="?page={{ page_obj.next_page_number }}">next</a>
+                    <a href="?page={{ page_obj.paginator.num_pages }}">last &raquo;</a>
+                {% endif %}
+
+            </span>
+            </div>
+        {% endif %}
+
+
+
+{% endblock %}

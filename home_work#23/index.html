@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+            <input id="myName" type="type">
+            <input id="age" type="type">
+            <button id="save">Save</button> 
+
+    </div>
+    <script>
+            save.onclick = async(event) => {
+                let obj = {
+                    name: myName.value,
+                    age:age.value
+                }
+                let response = await fetch('http://192.168.2.69:3000/users',{
+                    headers:{
+                        "Content-Type": "application/json"                    },
+                    method: "POST",
+                    body: JSON.stringify(obj)
+                })
+                
+                let data = await response.json()
+                console.log(data)
+            }
+    </script>
+
+</body>
+</html>

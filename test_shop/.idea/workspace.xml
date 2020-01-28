@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3b3e5dc1-3101-4917-b591-9e45c30ff73c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WZ3I91lRdwH1UtKO9zWhlqY166" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/my_shop/templates" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/my_shop/templates" />
+      <recent name="$PROJECT_DIR$/my_shop" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3b3e5dc1-3101-4917-b591-9e45c30ff73c" name="Default Changelist" comment="" />
+      <created>1579343206249</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579343206249</updated>
+      <workItem from="1579343214752" duration="4321000" />
+      <workItem from="1579385742643" duration="4681000" />
+      <workItem from="1579515486266" duration="776000" />
+      <workItem from="1579539568683" duration="1474000" />
+      <workItem from="1579560185277" duration="3064000" />
+      <workItem from="1579643252827" duration="6268000" />
+      <workItem from="1579758774548" duration="150000" />
+      <workItem from="1579758961594" duration="37132000" />
+      <workItem from="1579869234079" duration="6353000" />
+      <workItem from="1580072498475" duration="6284000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="669" y="199" width="642" height="715" key="#Unnamed" timestamp="1579869455633">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="669" y="199" width="642" height="715" key="#Unnamed/70.27.1850.1053@70.27.1850.1053" timestamp="1579869455633" />
+    <state x="453" y="211" width="1084" height="732" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579872701248">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="453" y="211" width="1084" height="732" key="#com.intellij.execution.impl.EditConfigurationsDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1579872701248" />
+    <state x="577" y="312" width="424" height="491" key="FileChooserDialogImpl" timestamp="1579758997808">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="577" y="312" width="424" height="491" key="FileChooserDialogImpl/70.27.1850.1053@70.27.1850.1053" timestamp="1579758997808" />
+    <state width="263" height="500" key="HiddenNamespacesPopup" timestamp="1579643441397">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="263" height="500" key="HiddenNamespacesPopup/70.27.1850.1053@70.27.1850.1053" timestamp="1579643441397" />
+    <state x="219" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1579869450843">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="219" y="188" width="1022" height="737" key="SettingsEditor/70.27.1850.1053@70.27.1850.1053" timestamp="1579869450843" />
+    <state x="636" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1580072498875">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="636" y="381" key="com.intellij.ide.util.TipDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1580072498875" />
+    <state x="750" y="216" width="480" height="682" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1579870705252">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="750" y="216" width="480" height="682" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/70.27.1850.1053@70.27.1850.1053" timestamp="1579870705252" />
+  </component>
+</project>
